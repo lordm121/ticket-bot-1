@@ -25,7 +25,7 @@ const settings = new enmap({
 client.on('message', async (message) => {
   if (!message.guild || message.author.bot) return false;
   if (message.content == prefix + 'ping') {
-    const msg = await message.channel.send("PING BONG RONG BY NIRO😂😂");
+    const msg = await message.channel.send("PING BONG RONG BY LORD😂😂");
     msg.delete();
     message.channel.send(`\`\`\`javascript\nDiscord API: ${Math.round(client.ping)}ms\nTime taken: ${msg.createdTimestamp - message.createdTimestamp}\n\`\`\` `)
   }
@@ -49,7 +49,7 @@ client.on('message', async message => {
     let sent = await channel.send(new Discord.MessageEmbed()
       .setTitle("**Ticket Bot**")
       .setDescription("**React With 📩 To Create a Ticket**")
-      .setFooter("made by @ニロ#3892")
+      .setFooter("made by LORD")
       .setColor("BLUE")
     );
 
