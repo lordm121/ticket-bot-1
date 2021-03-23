@@ -11,7 +11,7 @@ client.on('ready', () => {
 })
 const enmap = require('enmap');
 const prefix = '#'
-client.login("NzY1NTYyNzU4NDA5ODc5NTYz.X4Wn4Q.omoO3Wwy0DoLqw47y8zVA94JN4Y").catch(err => {
+client.login("").catch(err => {
   console.log('[ DISCORD API ] INVIELD TOKEN')
 })
 
